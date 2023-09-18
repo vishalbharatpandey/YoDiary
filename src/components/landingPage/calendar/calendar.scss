@@ -1,0 +1,26 @@
+@import "./../landingPage.scss";
+
+.calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .react-calendar{
+    background-color: #be9d9d;
+    border-radius: 20px;
+  }
+  .recentNotes p{
+      width: 22vw;
+      border-radius: 50px;
+      background-image: linear-gradient(to right, rgb(194, 212, 214),white);
+      padding: 2%;
+      display: flex;
+      justify-content: space-between;
+      span:nth-of-type(2){
+        font-size: 0.75rem;
+      }
+  }

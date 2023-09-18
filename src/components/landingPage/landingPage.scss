@@ -1,0 +1,47 @@
+.landingPage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(white,#aacacd);
+    color: #340f0f;
+    // background-image: linear-gradient(to top,#b0d091,#d1c2c2);
+    
+      
+}
+.calendar, .dayNotes, .createNote{
+    height: 70vh;
+    width: 25vw;
+    background-image: linear-gradient(gray,#edadad);
+    border-radius: 5%;
+    padding: 20px;
+    margin-top: 80vh;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+
+    transform: 
+    rotate(-1deg);
+  border-radius: 5px;
+  will-change: transform;
+  transition: 0.4s ease-in-out transform;
+
+  &:hover {
+    transform: rotate(0deg);
+  }
+}
+.upperPosition1{
+    margin-top: -5vh;
+    transition: margin-top 400ms ease-out;
+}
+.upperPosition2{
+    margin-top: -15vh;
+    transition: margin-top 400ms ease-out;
+}
+.upperPosition3{
+    margin-top: -25vh;
+    transition: margin-top 400ms ease-out;
+}
+.normalPosition{
+    margin-top: 0vh;
+    transition: margin-top 300ms ease-in;
+}

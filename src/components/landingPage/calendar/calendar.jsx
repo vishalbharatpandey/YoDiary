@@ -50,7 +50,7 @@ const CalendarComponent=({setNoDateSelected})=> {
     const monthValue = allMonthValues[value.getMonth()];
     setCalendarText(`${monthValue} Month  is selected`);
   };
-
+ 
   return (
     <div className="calendar">
       <h4 style={{ backgroundColor:"lightgray", width: "100px", textAlign:"center", padding:"10px", borderRadius:"25px"}}>
